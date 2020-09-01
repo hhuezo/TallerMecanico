@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="SolicitudReparacion_ListView">
+      <Columns Id="Columns">
+        <ColumnInfo Id="FechaInicioEjecucion" Index="11" />
+        <ColumnInfo Id="TiempoEjecucionPlaneado" Index="15" />
+        <ColumnInfo Id="RendimientoProyectado" Index="16" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SolicitudReparacion_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SolicitudReparacion">
+              <LayoutGroup Id="SolicitudReparacion_col1">
+                <LayoutItem Id="EstadoSolicitud" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

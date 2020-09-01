@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\hhuezo\publicar" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="02/10/2020 14:09:54" />
+    <file relUrl="bin/TallerMecanico.Web.dll" publishTime="02/11/2020 13:31:09" />
+    <file relUrl="Login.aspx" publishTime="04/27/2016 10:48:49" />
+    <file relUrl="bin/TallerMecanico.Web.pdb" publishTime="02/11/2020 13:31:09" />
+    <file relUrl="bin/TallerMecanico.Module.dll" publishTime="02/11/2020 13:31:08" />
+    <file relUrl="Model_es-SV.xafml" publishTime="08/30/2017 10:40:56" />
+    <file relUrl="bin/es-SV/TallerMecanico.Module.resources.dll" publishTime="02/11/2020 13:31:08" />
+    <file relUrl="bin/TallerMecanico.Module.Web.pdb" publishTime="02/11/2020 13:31:09" />
+    <file relUrl="Images/siaf.png" publishTime="04/27/2016 10:36:12" />
+    <file relUrl="Global.asax" publishTime="06/12/2015 08:46:58" />
+    <file relUrl="Error.aspx" publishTime="06/12/2015 08:46:58" />
+    <file relUrl="bin/TallerMecanico.Module.pdb" publishTime="02/11/2020 13:31:08" />
+    <file relUrl="Images/logo.png" publishTime="04/27/2016 10:12:04" />
+    <file relUrl="Model.xafml" publishTime="08/30/2017 10:40:56" />
+    <file relUrl="Default.aspx" publishTime="06/12/2015 08:46:58" />
+    <file relUrl="bin/TallerMecanico.Module.Web.dll" publishTime="02/11/2020 13:31:09" />
+  </publishProfile>
+</publishData>

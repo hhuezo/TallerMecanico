@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="TallerMecanico" Logo="ExpressAppLogo" PreferredLanguage="es-SV">
+  <NavigationItems StartupNavigationItem="">
+    <Items>
+      <Item Id="Administracion de Solicitudes">
+        <Items>
+          <Item Id="SolicitudReparacion_ListView" ImageName="Action_Edit" Index="0" />
+          <Item Id="SolicitudTransporte_ListView" ImageName="Action_Copy" Index="1" />
+          <Item Id="view_historial_ListView" Index="2" />
+          <Item Id="ProgramacionReparacion_ListView" Index="3" ImageName="BO_Appointment" />
+          <Item Id="SolicitudCondicionVehiculo_ListView" ImageName="Action_Validation_Validate" />
+          <Item Id="SolicitudDiagnostico_ListView" ImageName="BO_Task" />
+          <Item Id="SolicitudRepuestos_ListView" ImageName="BO_Order" />
+          <Item Id="SolicitudSalidaVehiculo_ListView" ImageName="ActionGroup_EasyTestRecorder" />
+        </Items>
+      </Item>
+      <Item Id="Catalogos">
+        <Items>
+          <Item Id="AutoClase_ListView" ImageName="Action_CloneMerge_Clone_Object" Index="0" />
+          <Item Id="AutoMarca_ListView" ImageName="Action_CloneMerge_Merge_Object" Index="1" />
+          <Item Id="AutoModelo_ListView" ImageName="Action_StateMachine" Index="2" />
+          <Item Id="Automovil_ListView" ImageName="ModelEditor_Settings" Index="3" />
+          <Item Id="Departamento_ListView" ImageName="BO_Contract" Index="4" />
+          <Item Id="Gerencia_ListView" ImageName="BO_Position" Index="5" />
+          <Item Id="CompraRepuesto_ListView" ImageName="Action_Chart_Options" Index="6" />
+          <Item Id="Mecanico_ListView" ImageName="BO_Employee" Index="7" />
+          <Item Id="Proveedor_ListView" ImageName="BO_Lead" Index="8" />
+          <Item Id="ReporteFalla_ListView" ImageName="ModelEditor_RequiredProperty" Index="9" />
+          <Item Id="UnidadMedida_ListView" Index="10" ImageName="ModelEditor_ImageSources" />
+          <Item Id="Oficina_ListView" Index="11" ImageName="ModelEditor_Action_Modules" />
+          <Item Id="OficinasSamp_ListView" ImageName="Action_ShowItemOnDashboard" Index="12" />
+        </Items>
+      </Item>
+      <Item Id="Registro de Kilometrajes">
+        <Items>
+          <Item Id="RegistroKilometraje_ListView" ImageName="BO_Task" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="14.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="CompraRepuesto_ListView">
+      <Columns>
+        <ColumnInfo Id="Total">
+          <Summary>
+            <ColumnSummaryItem Id="@TotalCompra" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+    <ListView Id="SolicitudCondicionVehiculo_ListView">
+      <Columns>
+        <ColumnInfo Id="Antena" Removed="True" />
+        <ColumnInfo Id="Bateria" Removed="True" />
+        <ColumnInfo Id="BomperDelantero" Removed="True" />
+        <ColumnInfo Id="BomperTrasero" Removed="True" />
+        <ColumnInfo Id="CinturonSeguridad" Removed="True" />
+        <ColumnInfo Id="Cono" Removed="True" />
+        <ColumnInfo Id="DefensaDelantera" Removed="True" />
+        <ColumnInfo Id="DefensaTrasera" Removed="True" />
+        <ColumnInfo Id="Escobilla" Removed="True" />
+        <ColumnInfo Id="Extintor" Removed="True" />
+        <ColumnInfo Id="FechaDeIngreso" Removed="True" />
+        <ColumnInfo Id="LlantaRepuesto" Removed="True" />
+        <ColumnInfo Id="LlaveCruz" Removed="True" />
+        <ColumnInfo Id="LlaveL" Removed="True" />
+        <ColumnInfo Id="LlavesEncendido" Removed="True" />
+        <ColumnInfo Id="Mica" Removed="True" />
+        <ColumnInfo Id="Parabrisa" Removed="True" />
+        <ColumnInfo Id="SealBeanDerecho" Removed="True" />
+        <ColumnInfo Id="SealBeanIzquierdo" Removed="True" />
+        <ColumnInfo Id="StopDerecho" Removed="True" />
+        <ColumnInfo Id="StopIzquierdo" Removed="True" />
+        <ColumnInfo Id="TaponConbustible" Removed="True" />
+        <ColumnInfo Id="TarjetaCirulacion" Removed="True" />
+        <ColumnInfo Id="Triangulo" Removed="True" />
+        <ColumnInfo Id="ViaDelanteraIzquierda" Removed="True" />
+        <ColumnInfo Id="ViaTraseraDerecha" Removed="True" />
+        <ColumnInfo Id="ViaTraseraIzquierda" Removed="True" />
+      </Columns>
+    </ListView>
+    <ListView Id="SolicitudReparacion_CondicionAutomovil_ListView">
+      <Columns>
+        <ColumnInfo Id="Antena" Removed="True" />
+        <ColumnInfo Id="Bateria" Removed="True" />
+        <ColumnInfo Id="BomperDelantero" Removed="True" />
+        <ColumnInfo Id="BomperTrasero" Removed="True" />
+        <ColumnInfo Id="CinturonSeguridad" Removed="True" />
+        <ColumnInfo Id="CondicionAutomovil" Removed="True" />
+        <ColumnInfo Id="Cono" Removed="True" />
+        <ColumnInfo Id="DefensaDelantera" Removed="True" />
+        <ColumnInfo Id="DefensaTrasera" Removed="True" />
+        <ColumnInfo Id="Escobilla" Removed="True" />
+        <ColumnInfo Id="Extintor" Removed="True" />
+        <ColumnInfo Id="LlantaRepuesto" Removed="True" />
+        <ColumnInfo Id="LlaveCruz" Removed="True" />
+        <ColumnInfo Id="LlaveL" Removed="True" />
+        <ColumnInfo Id="LlavesEncendido" Removed="True" />
+        <ColumnInfo Id="Mica" Removed="True" />
+        <ColumnInfo Id="Parabrisa" Removed="True" />
+        <ColumnInfo Id="SealBeanDerecho" Removed="True" />
+        <ColumnInfo Id="SealBeanIzquierdo" Removed="True" />
+        <ColumnInfo Id="StopDerecho" Removed="True" />
+        <ColumnInfo Id="StopIzquierdo" Removed="True" />
+        <ColumnInfo Id="TaponConbustible" Removed="True" />
+        <ColumnInfo Id="TarjetaCirulacion" Removed="True" />
+        <ColumnInfo Id="Triangulo" Removed="True" />
+        <ColumnInfo Id="ViaDelanteraIzquierda" Removed="True" />
+        <ColumnInfo Id="ViaDelateraDerecha" Removed="True" />
+        <ColumnInfo Id="ViaTraseraDerecha" Removed="True" />
+        <ColumnInfo Id="ViaTraseraIzquierda" Removed="True" />
+      </Columns>
+    </ListView>
+    <DetailView Id="SolicitudReparacion_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SolicitudReparacion">
+              <LayoutGroup Id="SolicitudReparacion_col1">
+                <LayoutItem Id="Kilometraje" Removed="True" />
+                <LayoutItem Id="ReporteFalla" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="SolicitudReparacion_col2">
+                <LayoutItem Id="Kilometraje" ViewItem="Kilometraje" Index="8" IsNewNode="True" />
+                <LayoutItem Id="ReporteFalla" ViewItem="ReporteFalla" Index="9" IsNewNode="True" />
+                <LayoutItem Id="EstadoSolicitud" Index="10" ViewItem="EstadoSolicitud" IsNewNode="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SolicitudReparacion_ListView">
+      <Columns>
+        <ColumnInfo Id="Automovil" Index="-1" />
+        <ColumnInfo Id="Observacion" Index="-1" />
+        <ColumnInfo Id="UsuarioSolicitante" Index="-1" />
+        <ColumnInfo Id="CodSolicitud" SortOrder="Descending" />
+        <ColumnInfo Id="CurrentUserLoged" Index="1" />
+        <ColumnInfo Id="TipoSolicitud" Index="2" />
+        <ColumnInfo Id="FechaEntrada" Index="3" />
+        <ColumnInfo Id="Equipo" Index="4" />
+        <ColumnInfo Id="Placa" Index="5" />
+        <ColumnInfo Id="Kilometraje" Index="6" />
+        <ColumnInfo Id="ReporteFalla" Index="7" />
+        <ColumnInfo Id="EstadoSolicitud" Index="8" />
+        <ColumnInfo Id="TipoMantenimiento" Index="9" />
+        <ColumnInfo Id="Departamento" Index="10" />
+        <ColumnInfo Id="CostoEjecucionAproximado" Index="12" />
+        <ColumnInfo Id="CostoEjecucionReal" Index="13" />
+        <ColumnInfo Id="TiempoEjecucionReal" Index="14" />
+        <ColumnInfo Id="RendimientoReal" Index="17" />
+      </Columns>
+    </ListView>
+    <ListView Id="SolicitudReparacion_SolicitudDevolucionRepuesto_ListView">
+      <Columns>
+        <ColumnInfo Id="fecha" Index="-1" />
+        <ColumnInfo Id="NumeroDescargo" Index="-1" Width="196" />
+        <ColumnInfo Id="NumeroOrdenFactura" Index="-1" Width="220" />
+        <ColumnInfo Id="Proveedor" Index="-1" />
+        <ColumnInfo Id="TipoDocumentos" Index="-1" />
+        <ColumnInfo Id="Cantidad" Index="0" />
+        <ColumnInfo Id="UnidadMedida" Index="1" />
+        <ColumnInfo Id="Descripcion" Index="2" />
+        <ColumnInfo Id="PrecioUnitario" Index="3" />
+        <ColumnInfo Id="Total" Index="4" />
+        <ColumnInfo Id="Motivo" Index="5" />
+      </Columns>
+    </ListView>
+    <ListView Id="SolicitudReparacion_SolicitudRepuesto_ListView">
+      <Columns>
+        <ColumnInfo Id="Total">
+          <Summary>
+            <ColumnSummaryItem Id="@TotalSolicitud" SummaryType="Sum" IsNewNode="True" />
+          </Summary>
+        </ColumnInfo>
+      </Columns>
+    </ListView>
+    <DetailView Id="SolicitudTransporte_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="SolicitudTransporte">
+              <LayoutGroup Id="SolicitudTransporte_col1">
+                <LayoutItem Id="Oficina" ViewItem="Oficina" ShowCaption="" Index="-1" IsNewNode="True" Removed="True" />
+                <LayoutItem Id="Automovil" Index="3" />
+                <LayoutItem Id="Destino" Index="4" ViewItem="Destino" ShowCaption="" IsNewNode="True" />
+                <LayoutItem Id="NombreMotorista" Removed="True" />
+                <LayoutItem Id="UnidadSolicitante" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="SolicitudTransporte_col2">
+                <LayoutItem Id="Destino" Index="1" Removed="True" />
+                <LayoutItem Id="Acompanantes" Index="2" />
+                <LayoutItem Id="UnidadSolicitante" ViewItem="UnidadSolicitante" ShowCaption="" Index="3" IsNewNode="True" />
+                <LayoutItem Id="NombreMotorista" ViewItem="NombreMotorista" ShowCaption="" Index="4" IsNewNode="True" />
+                <LayoutItem Id="HoraEntrada" Removed="True" />
+                <LayoutItem Id="HoraSalida" Removed="True" />
+                <LayoutItem Id="KilometrajeEntrada" Removed="True" />
+                <LayoutItem Id="KilometrajeRecorrido" Removed="True" />
+                <LayoutItem Id="KilometrajeSalida" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+            <LayoutGroup Id="Kilometrajes" Index="1" ShowCaption="False" IsNewNode="True">
+              <LayoutItem Id="HoraSalida" ViewItem="HoraSalida" ShowCaption="" Index="2" IsNewNode="True" />
+              <LayoutItem Id="KilometrajeSalida" ViewItem="KilometrajeSalida" ShowCaption="" Index="3" IsNewNode="True" />
+              <LayoutItem Id="HoraEntrada" ViewItem="HoraEntrada" ShowCaption="" Index="4" IsNewNode="True" />
+              <LayoutItem Id="KilometrajeEntrada" ViewItem="KilometrajeEntrada" ShowCaption="" Index="5" IsNewNode="True" />
+              <LayoutItem Id="KilometrajeRecorrido" ViewItem="KilometrajeRecorrido" ShowCaption="" Index="6" IsNewNode="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="Entidad" Index="2" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SolicitudTransporte_ListView">
+      <Columns>
+        <ColumnInfo Id="Acompanantes" Index="-1" />
+        <ColumnInfo Id="Destino" Index="-1" />
+        <ColumnInfo Id="FechaSalida" SortIndex="0" SortOrder="Ascending" />
+        <ColumnInfo Id="NombreMotorista" Width="201" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

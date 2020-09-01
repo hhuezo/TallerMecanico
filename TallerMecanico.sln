@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Module", "TallerMecanico.Module\TallerMecanico.Module.csproj", "{864E9B29-B0FC-440C-B053-8040F1346308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Module.Web", "TallerMecanico.Module.Web\TallerMecanico.Module.Web.csproj", "{A181FD7F-F8E3-45A6-BD40-C202A7C81161}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Web", "TallerMecanico.Web\TallerMecanico.Web.csproj", "{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Module.Win", "TallerMecanico.Module.Win\TallerMecanico.Module.Win.csproj", "{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallerMecanico.Win", "TallerMecanico.Win\TallerMecanico.Win.csproj", "{EF692F1C-FC60-4D28-8BFA-52994F9B666F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864E9B29-B0FC-440C-B053-8040F1346308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864E9B29-B0FC-440C-B053-8040F1346308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864E9B29-B0FC-440C-B053-8040F1346308}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{864E9B29-B0FC-440C-B053-8040F1346308}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{864E9B29-B0FC-440C-B053-8040F1346308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864E9B29-B0FC-440C-B053-8040F1346308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A181FD7F-F8E3-45A6-BD40-C202A7C81161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A181FD7F-F8E3-45A6-BD40-C202A7C81161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A181FD7F-F8E3-45A6-BD40-C202A7C81161}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{A181FD7F-F8E3-45A6-BD40-C202A7C81161}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{A181FD7F-F8E3-45A6-BD40-C202A7C81161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A181FD7F-F8E3-45A6-BD40-C202A7C81161}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4061AE0-442F-4B6A-9E4F-4E9DE29AF4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985FB73E-EFDA-4AD6-92CE-B8D94EAF5906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF692F1C-FC60-4D28-8BFA-52994F9B666F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF692F1C-FC60-4D28-8BFA-52994F9B666F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF692F1C-FC60-4D28-8BFA-52994F9B666F}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{EF692F1C-FC60-4D28-8BFA-52994F9B666F}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{EF692F1C-FC60-4D28-8BFA-52994F9B666F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF692F1C-FC60-4D28-8BFA-52994F9B666F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

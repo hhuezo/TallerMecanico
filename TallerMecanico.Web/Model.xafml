@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Administracion de Solicitudes">
+        <Items>
+          <Item Id="view_historial_ListView" ImageName="Action_Paste" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="14.2.4.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="14.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="CompraRepuesto_ListView">
+      <Columns>
+        <ColumnInfo Id="Total">
+          <Summary>
+            <ColumnSummaryItem Id="@Total" SummaryType="Sum" IsNewNode="True" />
+            <ColumnSummaryItem Id="@TotalCompra" Removed="True" />
+          </Summary>
+        </ColumnInfo>
+        <ColumnInfo Id="@Automovil" PropertyName="CompraRepuestos.Automovil.NumeroPlaca" IsNewNode="True" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

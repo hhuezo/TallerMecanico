@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems">
+    <Items Id="Items">
+      <Item Id="Administracion de Solicitudes">
+        <Items Id="Items">
+          <Item Id="CompraRepuesto_ListView" ImageName="Action_Chart_Options" />
+          <Item Id="RegistroKilometraje_ListView" ImageName="Action_LocalizationImport" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+</Application>
